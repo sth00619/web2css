@@ -1,0 +1,20 @@
+공인아이피 -
+사설아이피 -
+
+# 가상호스트 설정 순서
+1. 아이피 확인
+   윈도우 실행창 > ipconfig
+2. 호스트설정(파일열때 관리자계정권한으로 열어야 됨)
+   C:\Windows\System32\drivers\etc\Hosts
+3. 아파치 설정
+   httpd.conf
+   httpd-vhosts.conf
+4. 비트나미 웹서버 재시작
+   bitnami > manage servers > apache web server > restart
+
+# 디비 툴 사용
+1. 툴에서 디비연결하기
+2. 툴에서 디비생성
+
+# 가상호스트디렉토리에서 php 사용
+1. php + mysql + html + css + js
